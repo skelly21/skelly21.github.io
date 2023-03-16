@@ -19,7 +19,7 @@ div.home-container {
 div.container{
 	position: relative;
 	min-height: 100vh;
-	background-color: rgb(226 218 208);
+	background-color: rgb(250, 243, 235);
 	max-width: 60em;
 }
 /* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
@@ -61,7 +61,6 @@ h3 {
 	margin: 1.5em 0em .5em 0em;
 }
 
-
 a {
 	text-decoration: none;
 	}
@@ -92,6 +91,7 @@ main.menu ul li {
 p {
 	margin: 1em 0em .5em;
 	color: rgb(34 43 96);
+	font-weight: 500;
 	}
 	
 p.description {
@@ -112,27 +112,26 @@ nav ul li {
 	font-weight: bold;
 	margin-bottom: 1.25em;
 	margin-top: 1.25em;
-	margin-right: .25em;
-	font-family: bilo;
+	font-family: bilo, sans-serif;
 	}
 	
 nav ul li a {
-	color: rgb(226 218 208);
-	background-color: rgb(34 43 96);
-	padding: .25em .25em; 
+	color: rgb(34 43 96);
+	background-color: rgb(226 218 208);
+	padding: .25em .35em; 
 	border-radius: 15px;
 	}
 	
 nav ul li.selected a {
-	color: rgb(34 43 96);
-	background-color: rgb(226 218 208);
+	color: rgb(226 218 208);
+	background-color: rgb(34 43 96);
+	padding: .25em;
 }
 
 p.slogan {
 	font-size: 5em;
 	font-family: bilo;
 	font-weight: bold;
-	margin: .5em .5em 1.5em;
 	color: rgb(34 43 96);	
 	}
 	
@@ -141,7 +140,6 @@ footer {
   bottom: 1em;
   width: 100%;
   height: 3rem; 
-  
   background: rgb(226 218 208);
   position: absolute;
   bottom: 0;
@@ -149,7 +147,8 @@ footer {
 
 footer p{
 	color: rgb(34 43 96);
-	margin-left: 1em;
+	margin-left: 2em;
+	font-weight: 400;
 }
 
 address {
