@@ -1,0 +1,66 @@
+/*CSS document*/
+
+html{
+    background-color: rgb(250 243 235);
+}
+
+body {
+    font-family: bilo;
+    color: rgb(44 73 127)
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+    background-color: rgb(250 243 235)
+}
+
+div.container ul li {
+   display: inline;
+   padding: 0em 1em 0em 0em;
+   font-weight: bold;
+   
+}
+
+h2{
+    font-family: discours-narrow-fill, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem; 
+}
+
+figcaption{
+    font-family: bilo, sans-serif;
+    font-weight: 400;
+    font-style: italic; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3{
+    font-family: discours-narrow-fill, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(199 85 66)
+}
+
+
+
+header {
+    
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
