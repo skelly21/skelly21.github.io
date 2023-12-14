@@ -14,59 +14,64 @@
             
         </head>	
 
+
         <body>
             <div class="container">
                 <header>
-                    <h1> <img src="logo.png" alt="Logo of Coacaine and Rhinestones."> </h1> <!-- ★ Please use a proper alt attribute.-->
+                    <h1><a href="index.html"> <img src="logo.png" alt="Logo of Coacaine and Rhinestones."> </a> </h1> <!-- ★ Please use a proper alt attribute.-->
                     
                     <nav>
                         <ul> <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
                             <li><a href="mainstory.html">Featured Episode</a></li>
-                            <li><a href="photogallery.html">Episode Archive</a></li>
+                            <li><a href="photogallery.html">Gallery</a></li>
                             <li><a href="newsletter.html">Newsletter</a></li> 
                             <li><a href="#">About</a></li>
                         </ul>
                     </nav>
                 </header>
-            <article>
+
+                <div class="gallery">
+                    <input type="radio" name="item" id="photo1" checked="checked">
+                    <input type="radio" name="item" id="photo2">
+                    <input type="radio" name="item" id="photo3">
+                    <input type="radio" name="item" id="photo4">
+
+                <h3>Gallery</h3>
+                    <main class="gallery">
                 <figure>
-                    <img src="louvinbrothers.jpeg" alt="The young Louvin Brothers pose with their guitar.">
-                    <h3>The Louvin Brothers: Running Wild</h3>
-                    <h4>Season 1, Episode 6</h4>
-                    <p>
-                        The Louvin Brothers are widely regarded as the most influential harmony duo to ever cut a country song. The way Charlie and Ira could sing together is downright otherworldly. There’s even a special term we had to invent for family (it’s always/only family) who can sing this way: blood harmony. That being said, it’s possible we’ve never heard what they could really do.
-                    </p> 
+                    <img src="spadecooley.jpeg" alt="Spade Cooley poses for a portrait with his fiddle, pretending to play.">
+                    <figcaption>Spade Cooley</figcaption>
                 </figure>
+                <figure>
+                        <img src="ralphmooney.jpeg" alt="A young Ralph Monney holds a keyboard and smiles at the camera. He is standing on the side of a busy street.">
+                        <figcaption>Ralph Mooney</figcaption>
+                </figure>
+                <figure>
+                    <img src="lorettalynn.jpeg" alt="Loretta Lynn sits against a wooden bakdrop. She smiles towards the left of the camera.">
+                    <figcaption> Loretta Lynn.</figcaption>
+                </figure>
+                <figure>
+                        <img src="Shelby-Singleton.jpeg" alt="Shelby Singleton, wearing glasses looks at the camera..">
+                        <figcaption>Shelby Singleton.</figcaption>
+                </figure>
+            </main>
 
-                
-            </article>
+            <nav class=gallery>
+                    <label for="photo1">
+                        <img src="spadecooley.jpeg" alt="Spade Cooley poses for a portrait with his fiddle, pretending to play.">
+                    </label>
+                    <label for="photo2">
+                        <img src="ralphmooney.jpeg" alt="A young Ralph Monney holds a keyboard and smiles at the camera. He is standing on the side of a busy street.">
+                    </label>
+                    <label for="photo3">
+                        <img src="lorettalynn.jpeg" alt="Loretta Lynn sits against a wooden bakdrop. She smiles towards the left of the camera.">
+                    </label>
+                    <label for="photo4">
+                        <img src="Shelby-Singleton.jpeg" alt="Shelby Singleton, wearing glasses looks at the camera..">
+                    </label>
+            </nav>
 
-                <aside>
-                    <section> <!-- ★ Example of a teaser with image.  You may want to give it a different class. -->
-                        <a href="#">
-                            <figure>
-                                <img src="Shelby-Singleton.jpeg" alt="Shelby Singleton, wearing glasses looks at the camera..">
-                            </figure>
-                                <h3>Harper Valley PTA, Part 1: Shelby S. Singleton</h3>
-                                <h4>Season 1, Episode 7</h4>
-                                <p>
-                                    Two words to sum up the career of Shelby Singleton? Publicity stunt. You think all it takes to make a hit record is to find a good song and get a good performance of it? That’s cute. Have a seat and let an old-school record man show you how it’s done. This is Shelby Singleton.                                
-                                </p>
-                        </a>    
-                    </section>
-
-                    <section> <!-- ★ Example of a teaser without image.  You may want to give it a third class. -->
-                        <a href="#">
-                        <h3>Buck Owens & Don Rich, Part 1: Open Up Your Heart</h3>
-                            <h4>Season 1, Episode 10</h4>
-                            <p>
-                                Buck Owens is an inkblot test. Ask 20 different people, get 20 different Bucks. Whatever else is true (and some of it certainly is), today we’re talking about the one who brought hard country music to the world in a time when we desperately needed someone to do that. Sticking to that honky tonk sound from Bakersfield made him a very famous man. Shrewd business practices made him a very rich man. Both of these things made him more than a few enemies.
-                            </p>  
-                        </a> 
-                    </section>
-                    
-                </aside>   
-
+                </div>
                 <footer>
                     <p> All rights reserved.</p>
                 </footer>
